@@ -91,6 +91,8 @@ The app will run at [http://localhost:5173](http://localhost:5173) (default for 
 
 ## Preview
 <img width="1352" height="646" alt="image" src="https://github.com/user-attachments/assets/08a770a4-5673-4f5e-aa66-4c42504fa1f2" />
+<img width="1355" height="646" alt="image" src="https://github.com/user-attachments/assets/3081c742-b609-4160-88a7-2749f52d6354" />
+
 
 ## Contributing
 
