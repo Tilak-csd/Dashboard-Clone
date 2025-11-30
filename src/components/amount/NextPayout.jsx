@@ -5,7 +5,7 @@ import CustomIcon from '../../assets/CustomIcon'
 export default function NextPayout() {
     return (
         <div className='w-[35%] h-auto'>
-            <div className=' bg-blue-600 rounded-t-lg w-full p-5 flex gap-4 flex-col hover:bg-blue-900'>
+            <div className=' bg-blue-800 rounded-t-lg w-full p-5 flex gap-4 flex-col hover:bg-blue-900'>
                 {/* The Tilte section */}
                 <h1 className='flex items-center gap-3 text-gray-300 text-xl'>
                     Next Payout
