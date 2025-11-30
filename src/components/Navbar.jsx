@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className='flex justify-between items-center h-20 p-4 w-[83vw] border-b-1 border-gray-400'>
+        <div className='flex justify-between items-center sticky top-0 z-1 bg-white h-20 p-10 w-[83vw] border-b-1 border-gray-400'>
             <div className='flex justify-center items-center gap-4'>
                 <h1 className='text-2xl font-semibold text-gray-700'>Payouts</h1>
                 <div className='flex items-center justify-center text-sm gap-1 text-gray-500'>
