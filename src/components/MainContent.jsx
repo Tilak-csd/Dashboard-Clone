@@ -4,6 +4,7 @@ import NextPayout from './amount/NextPayout'
 import AmountPending from './amount/AmountPending'
 import AmountProcessed from './amount/AmountProcessed'
 import Button from './UI/Button'
+import Filter from './Filter'
 
 export default function MainContent() {
   return (
@@ -23,11 +24,15 @@ export default function MainContent() {
 
       {/* Transaction This month */}
       <div className='mt-6'>
+        {/* headings section */}
         <h1 className='text-2xl font-semibold text-gray-700'>Transactions | This Month</h1>
-        <div className='flex gap-2 my-5'>
-          <Button content={"Payouts (22)"} bgcolor={"#ebe2ca"} color={"#6B7280"}/>
-          <Button content={"Refunds (8)"} bgcolor={"#1E40AF"} color={"#ffff"}/>
+        {/* buttond for payouts and refunds */}
+        <div className='flex gap-4 my-8'>
+          <Button content={"Payouts (22)"} bgcolor={"#ebe2ca"} color={"#6B7280"} />
+          <Button content={"Refunds (8)"} bgcolor={"#1E40AF"} color={"#ffff"} />
         </div>
+        {/* search bar and filtering for transactions ID or Order ID */}
+        <Filter />
       </div>
 
     </div>
