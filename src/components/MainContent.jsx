@@ -1,5 +1,8 @@
 import React from 'react'
 import DropdownMonth from './DropdownMonth'
+import NextPayout from './amount/NextPayout'
+import AmountPending from './amount/AmountPending'
+import AmountProcessed from './amount/AmountProcessed'
 
 
 export default function MainContent() {
@@ -12,7 +15,11 @@ export default function MainContent() {
         <DropdownMonth />
       </div>
       {/* card option amount of transaction  */}
-      <div></div>
+      <div>
+        <NextPayout />
+        <AmountPending />
+        <AmountProcessed />
+      </div>
 
     </div>
   )
