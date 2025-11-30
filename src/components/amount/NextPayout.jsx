@@ -5,7 +5,7 @@ import CustomIcon from '../../assets/CustomIcon'
 export default function NextPayout() {
     return (
         <div className='w-[40%] h-auto'>
-            <div className=' bg-blue-600 rounded-t-lg w-full p-5 flex gap-5 flex-col hover:bg-blue-900'>
+            <div className=' bg-blue-600 rounded-t-lg w-full p-5 flex gap-4 flex-col hover:bg-blue-900'>
                 {/* The Tilte section */}
                 <h1 className='flex items-center gap-3 text-gray-300 text-xl'>
                     Next Payout
@@ -16,10 +16,10 @@ export default function NextPayout() {
                 {/* The amount section  */}
                 <div className='flex justify-between'>
                     <h2 className='text-white text-3xl font-Semibold flex items-center gap-2'>
-                        <CustomIcon />
+                        <CustomIcon color={'#ffffff'} />
                         5,964.08
                     </h2>
-                    <a href="#" className='flex justify-center items-center font-bold text-white underline'>23 Orders
+                    <a href="#" className='flex justify-center items-center font-semibold text-white underline'>23 Orders
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                             <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                         </svg>
