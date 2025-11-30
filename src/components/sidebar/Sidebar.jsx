@@ -13,7 +13,7 @@ export default function SideBar() {
           <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
         </svg>
       </div>
-      <div className='flex items-start flex-col mt-5 w-full text-gray-400 font-semibold gap-2'>
+      <div className='flex items-start flex-col mt-5 w-full text-gray-300 font-semibold gap-2'>
         <SidebarItems></SidebarItems>
       </div>
       <div className=' absolute bottom-5 flex gap-2 w-[90%] p-2 rounded-sm bg-blue-900'>

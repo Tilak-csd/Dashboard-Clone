@@ -21,7 +21,7 @@ export default function DropdownMonth() {
 
 function Month({ months, setMonth, setYes }) {
     return (
-        <div className='w-[10rem] p-2 absolute border-[1px] border-gray-300  rounded-md'>
+        <div className='w-[10rem] p-2 absolute border-[1px] border-gray-300 bg-white  rounded-md'>
             {months.map((month, idx) => {
                 return <li key={idx}
                     onClick={() => {

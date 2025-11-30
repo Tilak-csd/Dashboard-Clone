@@ -13,7 +13,7 @@ export default function AmountPending() {
             </h1>
             {/* The amount section  */}
             <div className='flex justify-between'>
-                <h2 className='text-black text-3xl font-Semibold flex items-center gap-2'>
+                <h2 className='text-black text-3xl font-Semibold flex items-center gap-1'>
                     <CustomIcon color={'#00000'} />
                     15,964.08
                 </h2>
