@@ -15,7 +15,7 @@ export default function MainContent() {
         <DropdownMonth />
       </div>
       {/* card option amount of transaction  */}
-      <div>
+      <div className='flex justify-center items-center'>
         <NextPayout />
         <AmountPending />
         <AmountProcessed />
