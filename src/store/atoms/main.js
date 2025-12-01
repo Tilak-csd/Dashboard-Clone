@@ -5,7 +5,7 @@ export const StatusAtom = atom({
     default : "process"
 })
 
-export const NavBarAtom = atom({
-    key : "NavBarAtom",
+export const SidebarAtom = atom({
+    key : "SidebarAtom",
     default : false
 })

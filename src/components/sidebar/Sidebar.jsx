@@ -1,8 +1,15 @@
 import React from 'react'
 import SidebarItems from './SidebarItems'
+import { useRecoilValue } from 'recoil'
+import { SidebarAtom } from '../../store/atoms/main'
+
 export default function SideBar() {
+  const open = useRecoilValue(SidebarAtom)
+
   return (
-    <div className='w-[17vw] sticky top-0 hidden items-center p-2 flex-col bg-blue-950 h-screen gap-1'>
+    <div className={`w-[250px] z-2 absolute left-0 top-0 items-center p-2 flex-col bg-blue-950 h-screen gap-1
+    transform transition-all duration-300 ease-in-out
+    ${open ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
       <div className='flex gap-1 mt-3 justify-start items-center'>
         <img src="./image.png" alt="" className='w-10 rounded-sm h-10' />
         <div className='ml-2 flex flex-col'>
