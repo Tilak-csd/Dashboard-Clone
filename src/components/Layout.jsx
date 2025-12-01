@@ -5,7 +5,7 @@ import MainContent from './MainContent'
 
 export default function Layout() {
   return (
-    <div>
+    <div className='w-full'>
       <Navbar />
       <MainContent />
     </div>

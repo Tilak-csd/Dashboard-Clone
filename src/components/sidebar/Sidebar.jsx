@@ -2,7 +2,7 @@ import React from 'react'
 import SidebarItems from './SidebarItems'
 export default function SideBar() {
   return (
-    <div className='w-[17vw] sticky top-0 flex items-center p-2 flex-col bg-blue-950 h-screen gap-1'>
+    <div className='w-[17vw] sticky top-0 hidden items-center p-2 flex-col bg-blue-950 h-screen gap-1'>
       <div className='flex gap-1 mt-3 justify-start items-center'>
         <img src="./image.png" alt="" className='w-10 rounded-sm h-10' />
         <div className='ml-2 flex flex-col'>

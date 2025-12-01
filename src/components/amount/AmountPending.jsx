@@ -3,7 +3,7 @@ import CustomIcon from '../../assets/CustomIcon'
 
 export default function AmountPending() {
     return (
-        <div className='bg-white w-[30%] p-5 rounded-lg flex flex-col  gap-4'>
+        <div className='bg-white w-full p-5 rounded-lg flex flex-col  gap-4'>
             {/* heading section  */}
             <h1 className='flex items-center gap-3 text-gray-500 text-xl '>
                 Amount Pending
