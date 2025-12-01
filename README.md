@@ -5,44 +5,55 @@ A modular **React.js** dashboard project. The project is still under development
 ## Project Structure
 
 ```
-Dashboard/
+Dashboard-Clone/
+├── node_modules/
 ├── public/
-│   ├── discount.png
-│   ├── image.png
-│   ├── logo.png
-│   └── vite.svg
 ├── src/
 │   ├── assets/
 │   │   ├── CustomIcon.jsx
 │   │   └── react.svg
+│   │
 │   ├── components/
 │   │   ├── amount/
 │   │   │   ├── AmountPending.jsx
 │   │   │   ├── AmountProcessed.jsx
 │   │   │   └── NextPayout.jsx
-│   │   └── sidebar/
-│   │       ├── Sidebar.jsx
-│   │       └── SidebarItems.jsx
-│   ├── UI/
-│   │   ├── Button.jsx
-│   │   ├── DropdownMonth.jsx
-│   │   ├── Filter.jsx
+│   │   │
+│   │   ├── sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── SidebarItems.jsx
+│   │   │
+│   │   ├── UI/
+│   │   │   ├── Button.jsx
+│   │   │   ├── DropdownMonth.jsx
+│   │   │   └── Filter.jsx
+│   │   │
 │   │   ├── LandingPage.jsx
 │   │   ├── Layout.jsx
 │   │   ├── MainContent.jsx
-│   │   └── Navbar.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Transaction.jsx
+│   │   └── Transactions.jsx
+│   │
+│   ├── store/
+│   │   ├── atoms/
+│   │   │   └── main.js
+│   │   └── data.js
+│   │
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
-│   ├── index.js
 │   └── main.jsx
+│
 ├── .gitignore
-├── eslintrc.js
+├── eslint.config.js
+├── index.html
 ├── package.json
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
 ```
+
 
 ## Features (Planned)
 
