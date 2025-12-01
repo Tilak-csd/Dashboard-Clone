@@ -9,19 +9,20 @@ export default function Transactions() {
   const heading = ["Order ID", "Status", "Transaction ID", "Refund Date", "Order Amount"]
 
   return (
-    <div>
-      <div className="grid grid-cols-5 gap-5 py-2 px-2 bg-gray-200 mt-5">
+    <div className='overflow-x-auto mt-3'>
+      <div className="grid grid-cols-5 gap-5 py-2 px-2 bg-gray-200 mt-5 min-w-[700px]
+">
         {heading.map((title, idx) => (
           <div key={idx}
-          className={idx === heading.length - 1 ? "justify-self-end" : ""}
+            className={idx === heading.length - 1 ? "justify-self-end" : ""}
           >{title}</div>
         ))}
       </div>
 
-      {transaction.map((details, idx)=> (
+      {transaction.map((details, idx) => (
         <div
           key={idx}
-          className="grid grid-cols-5 gap-5 py-2 px-2"
+          className="grid grid-cols-5 gap-5 py-2 px-2 min-w-[700px]"
         >
           <div className='text-blue-700'>#{details.OrderId}</div>
           {details.Status === "Processing" && <div className='flex items-center gap-1'>
