@@ -17,7 +17,7 @@ export default function MainContent() {
         <DropdownMonth />
       </div>
       {/* card option amount of transaction  */}
-      <div className='grid grid-cols-4 xl:grid-cols-3 justify-items-center items-start mt-5 gap-5'>
+      <div className='grid grid-cols-4 xl:grid-cols-3 justify-items-center items-start mt-5 gap-3'>
         <NextPayout />
         <AmountPending />
         <AmountProcessed />
