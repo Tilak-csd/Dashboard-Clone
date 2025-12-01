@@ -90,8 +90,11 @@ npm run dev
 The app will run at [http://localhost:5173](http://localhost:5173) (default for Vite).
 
 ## Preview
+**Desktop**
 <img width="1352" height="646" alt="image" src="https://github.com/user-attachments/assets/08a770a4-5673-4f5e-aa66-4c42504fa1f2" />
 <img width="1355" height="646" alt="image" src="https://github.com/user-attachments/assets/3081c742-b609-4160-88a7-2749f52d6354" />
+**Mobile**
+<img width="213" height="468" alt="image" src="https://github.com/user-attachments/assets/6aa5549d-3c9f-44b8-94df-c5378a7c3870" />
 
 
 ## Contributing
