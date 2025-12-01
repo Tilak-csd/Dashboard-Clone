@@ -1,10 +1,10 @@
 import React from 'react'
-import DropdownMonth from './DropdownMonth'
+import DropdownMonth from './UI/DropdownMonth'
 import NextPayout from './amount/NextPayout'
 import AmountPending from './amount/AmountPending'
 import AmountProcessed from './amount/AmountProcessed'
 import Button from './UI/Button'
-import Filter from './Filter'
+import Filter from './UI/Filter'
 import Transactions from './Transactions'
 
 export default function MainContent() {
