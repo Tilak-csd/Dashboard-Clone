@@ -7,7 +7,7 @@ export default function SideBar() {
   const open = useRecoilValue(SidebarAtom)
 
   return (
-    <div className={`w-[250px] z-2 absolute left-0 top-0 items-center p-2 flex-col bg-blue-950 h-screen gap-1
+    <div className={`w-[250px] z-50 absolute left-0 top-0 items-center p-2 flex-col bg-blue-950 h-screen gap-1
     transform transition-all duration-300 ease-in-out
     ${open ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
       <div className='flex gap-1 mt-3 justify-start items-center'>

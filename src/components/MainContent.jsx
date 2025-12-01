@@ -9,7 +9,7 @@ import Transactions from './Transactions'
 
 export default function MainContent() {
   return (
-    <div className='h-auto overflow-y-scroll scroll-hide p-3 bg-[#f1efe9] '>
+    <div className='h-screen overflow-y-scroll scroll-hide p-3 bg-[#f1efe9] '>
       {/* top line of the main content side */}
       <div className='flex justify-between items-center'>
         <h1 className='text-xl font-semibold text-gray-700'>Overview</h1>
