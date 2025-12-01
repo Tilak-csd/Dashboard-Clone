@@ -56,10 +56,10 @@ Dashboard/
 ## Tech Stack
 
 * **Frontend:** React.js
-* **Styling:** Tailwind CSS (optional)
-* **Icons & UI:** React Icons
+* **Styling:** Tailwind CSS 
+* **Icons & UI:** React Icons (heroicons)
 * **Bundler:** Vite
-* **State Management:** React Context / Redux (planned)
+* **State Management:** React Context / Recoil
 
 ## Installation
 
