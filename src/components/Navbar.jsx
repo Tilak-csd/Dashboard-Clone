@@ -38,7 +38,7 @@ export default function Navbar() {
 function Button() {
     const setSidebar = useSetRecoilState(SidebarAtom)
     return <button
-        className='cursor-pointer'
+        className='cursor-pointer lg:hidden'
         onClick={()=> setSidebar(prev => !prev)}
     >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

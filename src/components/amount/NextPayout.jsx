@@ -4,7 +4,7 @@ import CustomIcon from '../../assets/CustomIcon'
 
 export default function NextPayout() {
     return (
-        <div className='w-full h-auto'>
+        <div className='w-full col-span-4 md:col-span-2 xl:col-span-1 h-auto'>
             <div className=' bg-blue-800 rounded-t-lg w-full p-5 flex gap-4 flex-col hover:bg-blue-900'>
                 {/* The Tilte section */}
                 <h1 className='flex items-center gap-3 text-gray-300 text-md font-semibold'>

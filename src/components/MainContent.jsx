@@ -9,7 +9,7 @@ import Transactions from './Transactions'
 
 export default function MainContent() {
   return (
-    <div className='h-screen overflow-y-scroll scroll-hide p-3 bg-[#f1efe9] '>
+    <div className='max-h-[calc(100vh-60px)] overflow-y-scroll scroll-hide p-3 bg-[#f1efe9] '>
       {/* top line of the main content side */}
       <div className='flex justify-between items-center'>
         <h1 className='text-xl font-semibold text-gray-700'>Overview</h1>
@@ -17,7 +17,7 @@ export default function MainContent() {
         <DropdownMonth />
       </div>
       {/* card option amount of transaction  */}
-      <div className='flex justify-center items-start mt-5 gap-5 flex-col'>
+      <div className='grid grid-cols-4 xl:grid-cols-3 justify-items-center items-start mt-5 gap-5'>
         <NextPayout />
         <AmountPending />
         <AmountProcessed />
